@@ -1,0 +1,168 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\gzdoom-4-11-3.a.-Windows-64bit\\brightmaps.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource1
+			{
+				type = 2;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\gzdoom-4-11-3.a.-Windows-64bit\\game_support.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource2
+			{
+				type = 2;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\gzdoom-4-11-3.a.-Windows-64bit\\lights.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource3
+			{
+				type = 2;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\gzdoom-4-11-3.a.-Windows-64bit\\game_widescreen_gfx.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource4
+			{
+				type = 0;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\DOOM2\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource5
+			{
+				type = 2;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\PB\\PB_Staging250224.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource6
+			{
+				type = 0;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\Assets.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource7
+			{
+				type = 0;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\gfdg\\30years.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource8
+			{
+				type = 2;
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\SOUNDS\\NewMetalD2v3.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+		}
+		defaultfloortexture = "FLOOR0_1";
+		defaultceiltexture = "CEIL1_1";
+		defaulttoptexture = "STARTAN2";
+		defaultwalltexture = "STARTAN2";
+		defaultbottomtexture = "STARTAN2";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = -1714.287f;
+		viewpositiony = 326.4813f;
+		viewscale = 1.900485f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 16;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+	}
+}
