@@ -74,7 +74,7 @@ maps
 			resource6
 			{
 				type = 0;
-				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\Assets.wad";
+				location = "C:\\Users\\Копчонок\\Desktop\\DOOM\\Project1_v0.0.1-alpha\\project_shooter\\Assets.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -118,9 +118,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -1714.287f;
-		viewpositiony = 326.4813f;
-		viewscale = 1.900485f;
+		viewpositionx = 1815.704f;
+		viewpositiony = 545.6033f;
+		viewscale = 1.900495f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
